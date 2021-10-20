@@ -1,9 +1,5 @@
 <!-- Archive -->
 <!DOCTYPE html>
-
-
-
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,14 +8,24 @@
     <link rel="icon" href="https://lonelyghose.club/LonelyLogo.ico" />
     <link rel="apple-touch-icon" href="https://lonelyghose.club/LonelyLogo.ico" />
 
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
-
+    <title>.catalogue</title>
     <style>
 
         .contain{
             position: relative;
-        
-            left: 7%;
+        }
+
+        ul{
+            list-style: none;
+        }
+    
+        section {
+            bottom: 1000px;
+        }
+    
+        .coming{
+            margin: 0%;
+            bottom: 100%;
         }
         
                 
@@ -34,7 +40,6 @@
             font-size: smaller;
             text-align: center;
             align-items: center;
-            margin-left: 5%;
             }
         
                 
@@ -56,9 +61,10 @@
         }
         
         h1{
-            text-align: center;
-            margin-left: 5%;
-        }
+        text-align: center;
+        font-size: 1.5em;
+        color: yellow;
+    }
         
         h2{
             text-align: center;
@@ -95,39 +101,7 @@
             margin: auto 20% auto 25%;
             text-align: center;
         }
-        
-        ul.about{
-            display: flex;
-            justify-content: space-around;
-            text-decoration: none;
-            list-style: none;
-            margin: auto 20% auto auto;
-            
-            
-            /* margin: 0%;
-            padding: 0%; */
-            /* align-items: center; */
-        }
-        
-        ul.about li:first-child{
-            padding-left: 15%;
-        }
-        
-        ul.bio li {
-            /* position: relative;
-             display: grid; */
-            padding-right: 18%;
-        }
-        
-        ul.bio{
-            display: inline-flex;
-            justify-content: space-around;
-            width: 65%;
-            list-style: none;
-            text-align: center;
-            /* padding right: 25%; */
-            /* margin-left: 25%; */
-        }
+
         
         li{
             margin: 0%;
@@ -147,11 +121,6 @@
           padding-top: 20px;
         }
         
-        
-        ul{
-            list-style: none;
-        }
-        
         img.center-fit {
           /* position:relative;
           display: grid; */
@@ -159,13 +128,13 @@
           margin-left: auto;
           margin-right: auto;
           max-width: 100%;
-          max-height:225vh;
+          max-height:275vh;
           /* padding-right: 10%; */
           /* opacity: 80%; */
           z-index: -1;
         }
+    
         
-
         div footer{
             position: flex;
         
@@ -177,43 +146,14 @@
         }
         
         
-        @media screen and (max-width: 400px) {
+        @media screen and (max-width: 850px) {
         
-        /* .container{
-          width: auto;
-          margin: 10%;
-          padding:auto;
-        } */
         
-        div.nav{
-          display: inline;
-          position: relative;
-        }
         
-        nav{
-          position: flex;
-          flex-direction: row;
-          font-size: smaller;
-          width: 100%;
-          margin-bottom: 10%;
-        }
-        
-        ul{
-            list-style: none;
-        }
-        
+
         div h1{
             position: relative;
-            margin-top: 20px;  
         
-        }
-        
-        
-        ul.logos{
-            position: relative;
-            display: inline;
-            display: table-row;
-            background-color: red;
         }
         
         a{
@@ -228,71 +168,60 @@
           /* position:relative;
           display: grid; */
           /* size: 10%; */
-          /* margin-left: auto;
-          margin-right: auto; */
+          margin-left: auto;
+          margin-right: auto;
+          text-align: center;
+          /* padding-right: 5%; */
           max-width: 100%;
-          max-height: 100%;
+          max-height: 225vh;
           /* padding-right: 10%; */
           /* opacity: 80%; */
           z-index: -1;
         }
-        
-        
-        
-        }
+    }
+
             </style>
-
-    <title>.catalogue</title>
-    
 </head>
-
-<div>
-   
-    <nav>
-                
-        <ul>
-            <ul>
-                <li><a id="nav button" href = index.html >
-                
-                  <h3>.HOME</h3> </a></li>
-            
-                <br>
-                <br>
-            
-                <li><a id="nav button" href = archive.html > 
-                
-                  <h3>.ARCHIVE</h3> </a></li>
-            
-                <br>
-            
-                <li><a id="nav button" href = roadmap.html >
-            
-                  <h3>.ROADMAP</h3> </a></li>
-              
-                <br>
-                <br>
-            
-                <li><a id="nav button" href = about.html > 
-                 <h5> .ABOUT</h5> </a></li>
-            
-                <br>
-            
-                <li><a id="nav button" href =  FAQ.html > 
-                  <h5> .FAQ</h5> </a></li>
-              </ul>
-        
-    </nav>
-        
-
- 
-    <!-- <h1> ¡?!CATALOGUE!?¡ </h1> -->
 
 
 <body>
-    <div class="imgboxarchive">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+        <nav>
+                <ul>
+                    <li><a id="nav button" href = index.html >
+                    
+                      <h3>.HOME</h3> </a></li>
+                
+                    <br>
+                    <br>
+  
+                    <li><a id="nav button" href = archive.html > 
+                    
+                      <h3>.ARCHIVE</h3> </a></li>
+                
+                    <br>
+                
+                    <li><a id="nav button" href = roadmap.html >
+                
+                      <h3>.ROADMAP</h3> </a></li>
+                  
+                    <br>
+                    <br>
+                
+                    <li><a id="nav button" href = about.html > 
+                     <h3> .ABOUT</h3> </a></li>
+                
+                    <br>
+                
+                    <li><a id="nav button" href =  FAQ.html > 
+                      <h3> .FAQ</h3> </a></li>
+                  </ul>
+            
+        </nav>
+
+    <div class="imgboxarchive">        <h1> catalogue </h1>
         <img class="center-fit" src="./images/lonelyghose_catalogue_final.png">
     </div>
-    </p>
 
 </body>
 
