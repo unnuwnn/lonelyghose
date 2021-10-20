@@ -4,20 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="https://lonelyghose.club/LonelyLogo.ico" />
+    <link rel="icon" href="https://lonelyghose.club/LonelyLogo.ico" />
     <link rel="apple-touch-icon" href="https://lonelyghose.club/LonelyLogo.ico" />
+    <!-- <link rel="stylesheet" type ="text/css"
+    href="/src/App.css"> -->
     <title>.catalogue</title>
 </head>
     <style>
 
         .contain{
             position: relative;
-        
-            left: 7%;
+        }
+
+        section {
+            bottom: 1000px;
         }
 
         .coming{
-            margin: 10%;
+            margin: 0%;
+            bottom: 100%;
         }
         
                 
@@ -32,7 +37,6 @@
             font-size: smaller;
             text-align: center;
             align-items: center;
-            margin-left: 5%;
             }
         
                 
@@ -54,8 +58,10 @@
         }
         
         h1{
-            text-align: center;
-            margin-left: 5%;
+        text-align: center;
+        font-size: 1.5em;
+        color: yellow;
+
         }
         
         h2{
@@ -157,16 +163,12 @@
           margin-left: auto;
           margin-right: auto;
           max-width: 100%;
-          max-height:225vh;
+          max-height:100vh;
           /* padding-right: 10%; */
           /* opacity: 80%; */
           z-index: -1;
         }
-        
-        div.biocontain{
-        text-align: center;
-        margin-left: 5%;
-        }
+
         
         div footer{
             position: flex;
@@ -179,43 +181,14 @@
         }
         
         
-        @media screen and (max-width: 400px) {
+        @media screen and (max-width: 850px) {
         
-        /* .container{
-          width: auto;
-          margin: 10%;
-          padding:auto;
-        } */
         
-        div.nav{
-          display: inline;
-          position: relative;
-        }
         
-        nav{
-          position: flex;
-          flex-direction: row;
-          font-size: smaller;
-          width: 100%;
-          margin-bottom: 10%;
-        }
-        
-        ul{
-            list-style: none;
-        }
-        
+
         div h1{
             position: relative;
-            margin-top: 20px;  
         
-        }
-        
-        
-        ul.logos{
-            position: relative;
-            display: inline;
-            display: table-row;
-            background-color: red;
         }
         
         a{
@@ -230,62 +203,68 @@
           /* position:relative;
           display: grid; */
           /* size: 10%; */
-          /* margin-left: auto;
-          margin-right: auto; */
+          margin-left: auto;
+          margin-right: auto;
+          text-align: center;
+          /* padding-right: 5%; */
           max-width: 100%;
-          max-height: 100%;
+          max-height: 60vh;
           /* padding-right: 10%; */
           /* opacity: 80%; */
           z-index: -1;
         }
-        
-        
-        
-        }
+    }
             </style>
+
 <body>
 
     <div class="buttons">
 
-        <ul>
-
-       <li> <a id="nav button" href = /index.html >
-        
-        <h3>.HOME</h3> </a></li>
+        <nav>
+                
+            <ul>
+                <li><a id="nav button" href = /index.html >
+                
+                  <h3>.HOME</h3> </a></li>
+            
+                    <br>
+                    <br>
     
-        <br>
-        <br>
-    
-        <li><a id="nav button" href = /catalogue.html > 
-        
-        <h3>.CATALOGUE</h3> </a></li>
-    
-        <br>
-    
-        <li><a id="nav button" href = /roadmap.html > 
-        <h3> .ROADMAP</h3> </a></li>
-
-        <br>
-    
-        <br>
-
-
-    
-        <li><a id="nav button" href = /about.html > 
-        <h5> .ABOUT</h5> </a></li>
-        <br>
-    
-        <li><a id="nav button" href = /FAQ.html > 
-        <h5> .FAQ</h5> </a></li>
-
-        </ul>
+                    
+            
+                <li><a id="nav button" href = /catalogue.html > 
+                
+                  <h3>.CATALOGUE</h3> </a></li>
+            
+                    <br>
+            
+                <li><a id="nav button" href = /roadmap.html >
+            
+                  <h3>.ROADMAP</h3> </a></li>
+              
+                    <br>
+                    <br>
+            
+                <li><a id="nav button" href = /about.html > 
+                 <h3> .ABOUT</h3> </a></li>
+            
+                    <br>
+            
+                <li><a id="nav button" href = /FAQ.html > 
+                  <h3> .FAQ</h3> </a></li>
+            </ul>
+            
+        </nav>
   
-    <div class="coming">
+    <section class="coming">
+            <h1> archive </h1>
         <p>
             Coming Soon...
-
+            <div class="imgbox">
+                <img class="center-fit"src="./images/preview.gif" alt="Preview #101-150">
+            </div>
         </p>
-    </div>
+    </section>
 </body>
 
 </html>

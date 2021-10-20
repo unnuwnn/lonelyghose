@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -21,21 +22,20 @@
         
                 
         body{
-            background-color: black;
-            color: white;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-                'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-            sans-serif;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-            font-size: smaller;
-            text-align: center;
-            align-items: center;
-            margin-left: 5%;
+                background-color: black;
+                color: white;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+            'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+                sans-serif;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                font-size: smaller;
+                text-align: center;
+                align-items: center;
             }
         
                 
-        a{
+         a{
             position:fixed;
             display: table-column;
             justify-content: space-around;
@@ -43,22 +43,34 @@
             color: yellow;
             font-size: small;
             text-decoration: none;
-            /* margin-left: auto; */
             padding: 0;
-            /* margin-top: 25%; */
-            }
+        }
+        
+
+        ul{
+        list-style: none;
+        }
+
+        li{
+        margin: 0%;
+        text-align: center;
+        /* padding: auto auto auto auto; */
+        }
         
         a:hover{
           color: grey;
         }
         
         h1{
-            text-align: center;
-        }
+        text-align: center;
+        font-size: 1.5em;
+        color: yellow;
+    }
         
         h2{
             text-align: center;
             font-size: 2.7em;
+            color: yellow;
             
         }
             
@@ -91,11 +103,7 @@
         }
 
 
-        li{
-            margin: 0%;
-            text-align: center;
-            /* padding: auto auto auto auto; */
-        }
+
         
             .center-fit {
           /* display: grid; */
@@ -105,17 +113,15 @@
         }
         
         
-        ul{
-            list-style: none;
-        }
+
         
         img.center-fit {
           position:relative;
           /* display: grid; */
            size: 100%;
           max-width: 100%;
-          max-height:225vh;
-          padding-right: 4%;
+          max-height:80vh;
+          margin-right: 4%;
           text-align: center;
           /* opacity: 80%; */
           z-index: -1;
@@ -142,10 +148,7 @@
             border-radius: 3px;
         }
         
-        div.biocontain{
-        text-align: center;
-        margin-left: 5%;
-        }
+
         
         p.footer{
             position: relative;
@@ -160,41 +163,12 @@
         
         @media screen and (max-width: 850px) {
         
-        /* .container{
-          width: auto;
-          margin: 10%;
-          padding:auto;
-        } */
         
-        div.nav{
-          display: inline;
-          position: relative;
-        }
         
-        nav{
-          position: flex;
-          flex-direction: row;
-          font-size: smaller;
-          width: 100%;
 
-        }
-        
-        ul{
-            list-style: none;
-        }
-        
         div h1{
             position: relative;
-            margin-top: 20px;  
         
-        }
-        
-        
-        ul.logos{
-            position: relative;
-            display: inline;
-            display: table-row;
-            background-color: red;
         }
         
         a{
@@ -214,21 +188,17 @@
           text-align: center;
           /* padding-right: 5%; */
           max-width: 100%;
-          max-height: 25vh;
+          max-height: 60vh;
           /* padding-right: 10%; */
           /* opacity: 80%; */
           z-index: -1;
         }
-        
-        
-        
-        }
+    }
             </style>
   
 </head> 
-
-<div class="margin">
-    <div>
+<body>
+    <div class="margin">
 
         <!-- style css -->
 
@@ -261,7 +231,7 @@
         <br>
     
         <li><a id="nav button" href = /FAQ.html > 
-        <h5> .FAQ</h5> </a></li>
+        <h3> .FAQ</h3> </a></li>
 
         </ul>
 
@@ -270,7 +240,7 @@
 
 <br>
 
-<body>
+
 
     <div class="text" style="background-color: white,">
 
@@ -352,4 +322,3 @@
 </body>
 
 </html>
-
